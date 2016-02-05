@@ -1,0 +1,22 @@
+import fresh_tomatoes
+import media
+
+the_beach = media.Movie("The Beach",
+                        "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
+                        "Danny Boyle",
+                        "Leonardo DiCaprio, Daniel York, Patcharawan Patarakijjanon",
+                        "https://upload.wikimedia.org/wikipedia/en/thumb/b/bc/The_Beach_film.jpg/215px-The_Beach_film.jpg",
+                        "https://www.youtube.com/watch?v=lBJ9MAectV0")
+#print(the_beach.storyline)
+apocalypse_now = media.Movie("Apocalypse Now",
+                        "During the Vietnam War, Captain Willard is sent on a dangerous mission into Cambodia to assassinate a renegade colonel who has set himself up as a god among a local tribe.",
+                        "Francis Ford Coppola",
+                        "Martin Sheen, Marlon Brando, Robert Duvall",
+                        "http://ia.media-imdb.com/images/M/MV5BMTcyMzQ5NDM4OV5BMl5BanBnXkFtZTcwODUwNDg3OA@@._V1_UY268_CR9,0,182,268_AL_.jpg",
+                        "https://www.youtube.com/watch?v=IkrhkUeDCdQ")
+#print(apocalypse_now.storyline)
+#apocalypse_now.show_trailer()
+
+movies = [the_beach, apocalypse_now]
+fresh_tomatoes.open_movies_page(movies)
+
