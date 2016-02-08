@@ -122,3 +122,4 @@ movies.append(the_interview)
 # to generate html page with list
 # of movies as parameter
 fresh_tomatoes.open_movies_page(movies)
+
