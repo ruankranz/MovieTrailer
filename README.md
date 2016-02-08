@@ -12,7 +12,7 @@ media.py: This module contains the class Movie to instantiate a movie object
 Requirements:
 
 1. All files must be in the same folder
-2.Python 2.7
+2. Python 2.7
 
 
 Instructions:
